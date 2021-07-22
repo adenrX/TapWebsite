@@ -1,0 +1,220 @@
+<!DOCTYPE html> 
+<html lang="eng"> 
+    <link href="StyleSheet.css" rel="StyleSheet">
+    <link rel="shortcut icon" href="android-icon-192x192.png"> 
+    <link rel="Stylesheet" href="calender_styles.css">
+    <head>
+        <meta name="viewport" 
+        content="width=device-width, initial-scale=1"> 
+        
+          <body>
+          
+          
+          </body>
+        <style>
+            body {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            } 
+
+            .sidenav {
+                height: 100%; 
+                width: 160px; 
+                position: fixed; 
+                z-index: 1px; 
+                top: 0px; 
+                left: 0px; 
+                background-color: rgb(53, 53, 53); 
+                overflow-x: hidden; 
+                padding-top: 20px;
+            } 
+
+            .sidenav a {
+                padding: 6px 8px 6px 16px; 
+                text-decoration: none; 
+                color: green; 
+                display: block;
+            } 
+
+            .sidenav a:hover {
+                color: rgb(196, 13, 13);
+            } 
+
+            .main {
+                margin-left: 160px; 
+                font-size: 28px; 
+                padding: 0px 10px;
+            } 
+
+            @media screen and (max-height: 450px) 
+            {
+                .sidenav {padding-top: 15px; } 
+                .sidenav a { font-size: 18px;}
+            }
+        </style> 
+
+<h1> TAP</h1> 
+
+</head> 
+<body> 
+    <div class="sidenav"> 
+        <a href="HomePage.html"> Home Page</a>
+        <a href="AchivementsPage.html"> TAPS Achivements</a> 
+        <a href="4StrandsPage.html"> TAP News</a>
+        <a href="TAPMerch.html"> TAP Merch Store</a> 
+    </div> 
+
+    
+    
+    <br> <br> <br> <br> <br> <br> <br> <br> 
+
+    <table style="width: 90%">
+      <tr>
+        <th>Product Name</th>
+        <th>Product Colors</th>
+        <th>Cost</th>
+      </tr>
+      <tr>
+        <td>Shirts</td>
+        <td>Green And White, Black & White,   </td>
+        <td>$25</td>
+      </tr> 
+      <tr>
+        <td>Hoodies</td>
+        <td>Black & Green, White & Black, </td>
+        <td>45</td>
+      </tr> 
+      <tr>
+        <td>Backpacks</td>
+        <td>DrawString Black</td>
+        <td>$45</td>
+      </tr> 
+      <tr>
+        <td>Accesories</td>
+        <td>Black & Green Mask, Green & White Lanyard, Green Wristband</td>
+        <td>$10, &5, $2 </td>
+      </tr> 
+      
+      <br> <br> <br> <br> <br> 
+    </table> 
+  
+    <table style="width: 90%">
+      <tr>
+        <th>Product Name</th>
+        <th>Product Colors</th>
+        <th>Cost</th>
+      </tr>
+      <tr>
+        <td>Shirts</td>
+        <td>Black & White  </td>
+        <td>$50</td>
+      </tr> 
+      <tr>
+        <td>Hoodies</td>
+        <td>Black & Gold </td>
+        <td>$90</td>
+      </tr> 
+      <tr>
+        <td>Masks</td>
+        <td>Black & Gold</td>
+        <td>$20</td>
+      </tr> 
+      <tr>
+        <td>Gold Bundle</td>
+        <td>Black And Gold Shirt + Hoodie + Mask</td>
+        <td>$150</td>
+      </tr> 
+      <tr>
+        <td>The Classics Bundle</td>
+        <td>Green and White Shirt + Lanyard</td>
+        <td>$27</td>
+      </tr> 
+      <tr>
+        <td>IBM Bundle</td>
+        <td>Black And White Shirt + DrawString Bag + Black Wristband</td>
+        <td>$75</td>
+      </tr> 
+      
+      
+      <h2> LIMITED EDITION / SPECIAL OFFERS</h2> 
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> <br> <br> <br>
+    <div class="row">
+        <div class="col-75">
+          <div class="container">
+            <form action="/action_page.php">
+      
+              <div class="row">
+                <div class="col-50">
+                  <h3>Billing Address</h3>
+                  <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Full Name">
+                  <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                  <input type="text" id="email" name="email" placeholder="example@example.com">
+                  <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                  <input type="text" id="adr" name="address" placeholder="Street Address">
+                  <label for="city"><i class="fa fa-institution"></i> City</label>
+                  <input type="text" id="city" name="city" placeholder="City Name">
+      
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="state">State</label>
+                      <input type="text" id="state" name="state" placeholder="State or Province">
+                    </div>
+                    <div class="col-50">
+                      <label for="zip">Zip</label>
+                      <input type="text" id="zip" name="zip" placeholder="B5A">
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-50">
+                  <h3>Payment</h3>
+                  <label for="fname">Accepted Cards</label>
+                  <div class="icon-container">
+                    <i class="" style="color:navy;"></i>
+                    <i class="" style="color:blue;"></i>
+                    <i class="" style="color:red;"></i>
+                    <i class="" style="color:orange;"></i>
+                  </div>
+                  <label for="cname">CardHolder Name</label>
+                  <input type="text" id="cname" name="cardname" placeholder="Card Holder">
+                  <label for="ccnum">Credit card number</label>
+                  <input type="text" id="ccnum" name="cardnumber" placeholder="902-555-5555">
+                  <label for="expmonth">Exp Month</label>
+                  <input type="text" id="expmonth" name="expmonth" placeholder="Ex Month">
+      
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="expyear">Exp Year</label>
+                      <input type="text" id="expyear" name="expyear" placeholder="Ex. Year">
+                    </div>
+                    <div class="col-50">
+                      <label for="cvv">CVV</label>
+                      <input type="text" id="cvv" name="cvv" placeholder="CVV">
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+              <label>
+                <input type="checkbox" checked="checked" name="sameadr"> Save Information to Site
+              </label>
+              <input type="submit" value="Comfirm Payment Info" class="btn">
+            </form>
+          </div>
+        </div>
+      
+        
+      </div>

@@ -1,0 +1,225 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+body {
+    width: 1000; 
+    background-color: rgb(78, 78, 78); 
+    font-family: 'Staatliches', cursive;
+} 
+
+head > h1 {
+    font-size: 100px; 
+    text-align: center; 
+    color: rgb(12, 190, 12); 
+    margin-top: 0in; 
+    background-color: rgb(54, 54, 54);
+}
+
+h1 {
+    font-size: 50px;  
+    text-align: center; 
+    color: rgb(12, 190, 12); 
+    margin-top: 0in; 
+    margin-left: 160px; 
+    margin-right: 300px;
+} 
+
+h2 {
+    font-size: 25px; 
+    text-align: left; 
+    color: rgb(12, 190, 12); 
+    margin-top: 0in; 
+    margin-left: 160px; 
+    margin-right: 160px; 
+     
+}
+
+p { 
+    text-align: left; 
+    font-size: 150%;
+    color: rgb(12, 190, 12); 
+    margin-top: 0in; 
+    position: absolute; 
+    margin-left: 10px; 
+    margin-right: 700px; 
+    
+}  
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  body {
+    margin-left: 160px; 
+    margin-right: 160px;
+  }
+  #sidebar, #content {
+    height: 100%;
+    overflow:auto;
+    float:left;
+    transition: width .35s;
+  }
+  
+  #sidebar {
+    background:rgb(54, 54, 54);
+    width: 30%;
+  }
+  
+  #sidebar.collapsed {
+    width: 0;
+  }
+  
+  #sidebar.collapsed + #content {
+    width: 100%;
+  }
+  
+  #content {
+    background:rgb(73, 72, 72);
+    width: 70%;
+  }
+  
+
+  a {
+      color: rgb(12, 190, 12); 
+      text-align: left;
+  }
+
+  li {
+      text-align: left;
+  } 
+
+ img {
+  margin-left: 850px;
+  margin-right: 0px;
+ }
+
+ hr {
+  width: 100%;
+  height: 20px;
+  background-color: black;
+  margin-right: 20px;
+  margin-left: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-width: 2px;
+  border-color: rgb(12, 190, 12);
+  }
+  
+
+  .row {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; 
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; 
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; 
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: green;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid black;
+    border-radius: 3px; 
+    margin-right: 160px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid rgb(85, 28, 28);
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: rgb(12, 190, 12);
+    color: black;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px; 
+  }
+  
+  .btn:hover {
+    background-color: rgb(54, 94, 204);
+  }
+  
+  span.price {
+    float: right;
+    color: black;
+  }
+  
+  
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    } 
+  }  
+
+/* Thank Charlie for the Table Style */
+
+  h1#headercalendar{
+    position: relative;
+    top: 100px;
+    margin-left: 340px;
+    margin-right: 340px;
+    display: block;
+    
+}
+.calendar {
+    position: relative;
+
+    top: 100px;
+    margin-left: 340px;
+    margin-right: 340px;
+}
+ table tr, th, td {
+    border: solid rgba(2, 2, 2, 0.678) 2px;
+    background-color: green;
+    margin-right: 160%;
+    margin-left: 160px;
+    font-size: 22px;
+}
+th{
+    background-color: green;
+    width: 50px;
+}
